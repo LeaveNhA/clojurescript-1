@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Running the Tests...
         uses: vouch-opensource/tools.deps-build@1.0.1
+        alias: :test
+      - name: check the bleep edn file.
+        run: cat ./deps.edn
