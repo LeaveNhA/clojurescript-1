@@ -10,4 +10,4 @@ jobs:
       - name: SO, where are you now ?
         run: ls -lah
       - name: Out of the box ?
-        run: cd ..; ls -lah
+        run: cd ..; cd clojurescript-track; ls -lah
