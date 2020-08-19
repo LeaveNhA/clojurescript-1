@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: SO, where are you now ?
-        run: ls -lah
-      - name: Out of the box ?
-        run: cd ..; ls -lah
+      - name: Running the Tests...
+        uses: vouch-opensource/tools.deps-build@1.0.1
+        with:
+          alias: :test
