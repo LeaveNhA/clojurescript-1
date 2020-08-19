@@ -15,4 +15,4 @@ jobs:
       - name: pwd?
         run: pwd
       - name: Running the Tests...
-        run: clojure -A:test
+        run: clojure -m cljs-test-runner.main
