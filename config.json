@@ -2,7 +2,7 @@
     "language": "ClojureScript",
     "track_id": "clojurescript",
     "active": true,
-    "blurb": "",
+    "blurb": "Clojurescript is a hosted language that is a dialect of Clojure. It targets Javascript with seemless interop with host platform. ClojureScript combines the reach of the JavaScript platform, the flexibility and interactive development of Clojure, and the whole-program optimization of Google Closure to provide the most powerful language for programming the web.",
     "test_pattern": "[Tt]est",
     "solution_pattern": "[Ee]xample",
     "ignore_pattern": "[Ee]xample",
