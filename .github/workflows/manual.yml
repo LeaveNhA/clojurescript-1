@@ -2,6 +2,10 @@ name: Clojurescript Track Test
 
 on: [push, pull_request]
 
+defaults:
+  run:
+    working-directory: ./
+
 jobs:
   build:
 
