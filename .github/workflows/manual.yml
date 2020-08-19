@@ -8,6 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
       - name: Running the Tests...
         uses: vouch-opensource/tools.deps-build@1.0.1
         with:
