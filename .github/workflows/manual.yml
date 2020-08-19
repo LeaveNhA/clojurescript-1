@@ -8,10 +8,13 @@ defaults:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
+      - name: Running the Tests...
+        uses: vouch-opensource/tools.deps-build@1.0.1
+        with:
+          alias: :test
       - name: SO, where are you now ?
         run: ls -lah
       - name: check the bleep edn file.
