@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: DeLaGuardo/setup-clojure@2.0
+      - name: Install clojure tools-deps
+        uses: DeLaGuardo/setup-clojure@master
         with:
-          tools-deps: '1.10.1.469'
-      - run: clojure -A:test
+          tools-deps: 1.10.1.469
+      - name: Running the Tests...
+        run: clj -A:test
