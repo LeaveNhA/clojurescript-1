@@ -13,3 +13,7 @@ jobs:
           node-version: 12
       - name: where is node now?
         run: node -v
+      - name: Running the Tests...
+        uses: vouch-opensource/tools.deps-build@1.0.1
+        with:
+          alias: :test
