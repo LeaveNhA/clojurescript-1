@@ -2,10 +2,6 @@ name: Clojurescript Track Test
 
 on: [push, pull_request]
 
-defaults:
-  env:
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
