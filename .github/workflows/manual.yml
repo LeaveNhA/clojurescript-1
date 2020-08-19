@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Running the Tests...
-        uses: actions/tools.deps-builder@v1.0.1
+        uses: vouch-opensource/tools.deps-build@1.0.1
